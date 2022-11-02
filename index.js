@@ -20,4 +20,5 @@ routes.forEach(item => {
 });
 
 const PORT = 3000;
+// запускаем сервер
 http.createServer({}, app).listen(PORT);
